@@ -1,0 +1,6 @@
+test,placebo_treatment,random_common_cause,subset_80pct
+treatment,Unnamed: 1_level_1,Unnamed: 2_level_1,Unnamed: 3_level_1
+dti_gt25,1.0,1.0,1.0
+fico_lt680,1.0,1.0,1.0
+lti_gt20,1.0,1.0,1.0
+util_gt75,1.0,1.0,1.0

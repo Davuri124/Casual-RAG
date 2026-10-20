@@ -1,0 +1,25 @@
+treatment,model,adjustment_set,dr_mse,ate_dr,ate_dr_se,blp_slope,blp_slope_se,corr_with_primary,overlap_outside
+dti_gt25,"CALF (K=4 tokens, layered) [primary]",tier-rule,1.01199,0.04161,0.00208,0.73599,0.10796,,0.1752
+dti_gt25,CALF K=1 (paper-as-written attention),tier-rule,1.01214,0.04161,0.00208,0.61689,0.14967,0.66653,0.1752
+dti_gt25,"Flat MLP (no layers, no attention)",tier-rule,1.01204,0.04161,0.00208,0.80342,0.13674,0.75985,0.1752
+dti_gt25,LightGBM T-learner,tier-rule,1.01432,0.04161,0.00208,0.188,0.04066,0.41376,0.1752
+dti_gt25,EconML CausalForestDML,tier-rule,1.01252,0.04161,0.00208,0.22119,0.1689,0.17938,0.1752
+dti_gt25,CALF K=4 on graph-derived adjustment set,graph-derived,1.01212,0.04161,0.00208,0.57179,0.10175,0.91667,0.1752
+util_gt75,"CALF (K=4 tokens, layered) [primary]",tier-rule,1.06957,0.01289,0.00232,0.25276,0.29171,,0.29528
+util_gt75,CALF K=1 (paper-as-written attention),tier-rule,1.06953,0.01289,0.00232,0.28114,0.28727,0.75854,0.29528
+util_gt75,"Flat MLP (no layers, no attention)",tier-rule,1.06951,0.01289,0.00232,0.32979,0.31358,0.65238,0.29528
+util_gt75,LightGBM T-learner,tier-rule,1.0719,0.01289,0.00232,0.03694,0.05121,0.25498,0.29528
+util_gt75,EconML CausalForestDML,tier-rule,1.06953,0.01289,0.00232,0.35294,0.18565,0.20406,0.29528
+util_gt75,CALF K=4 on graph-derived adjustment set,graph-derived,1.4282,0.01731,0.00268,0.74233,0.26353,0.46899,0.29528
+fico_lt680,"CALF (K=4 tokens, layered) [primary]",tier-rule,0.82531,0.04051,0.00178,0.74286,0.08436,,0.08262
+fico_lt680,CALF K=1 (paper-as-written attention),tier-rule,0.82538,0.04051,0.00178,0.75815,0.09754,0.82099,0.08262
+fico_lt680,"Flat MLP (no layers, no attention)",tier-rule,0.82527,0.04051,0.00178,0.88701,0.10458,0.89557,0.08262
+fico_lt680,LightGBM T-learner,tier-rule,0.82727,0.04051,0.00178,0.15522,0.03969,0.46298,0.08262
+fico_lt680,EconML CausalForestDML,tier-rule,0.82559,0.04051,0.00178,0.54852,0.11174,0.50959,0.08262
+fico_lt680,CALF K=4 on graph-derived adjustment set,graph-derived,0.82532,0.04051,0.00178,0.75096,0.08828,0.96526,0.08262
+lti_gt20,"CALF (K=4 tokens, layered) [primary]",tier-rule,0.77007,0.04031,0.0017,1.25657,0.08478,,0.06098
+lti_gt20,CALF K=1 (paper-as-written attention),tier-rule,0.77026,0.04031,0.0017,0.91392,0.07703,0.82479,0.06098
+lti_gt20,"Flat MLP (no layers, no attention)",tier-rule,0.77051,0.04031,0.0017,1.1084,0.10349,0.65056,0.06098
+lti_gt20,LightGBM T-learner,tier-rule,0.77181,0.04031,0.0017,0.27015,0.04052,0.40692,0.06098
+lti_gt20,EconML CausalForestDML,tier-rule,0.77045,0.04031,0.0017,0.97741,0.10746,0.5807,0.06098
+lti_gt20,CALF K=4 on graph-derived adjustment set,graph-derived,0.77002,0.04031,0.0017,1.19979,0.08507,0.91752,0.06098

@@ -1,0 +1,67 @@
+
+=== dti_gt25: Debt-to-income ratio above 25% | treated share 0.205 | layer dims [7, 54, 10] | overlap {'share_outside': 0.1751971635317282, 'e_q01': 0.02, 'e_q99': 0.7517057389436355}
+[dti_gt25] done in 5.1 min (total 5.1 min)
+treatment                                    model adjustment_set  dr_mse  ate_dr  ate_dr_se  blp_slope  blp_slope_se  corr_with_primary  overlap_outside
+ dti_gt25     CALF (K=4 tokens, layered) [primary]      tier-rule  1.0120  0.0416     0.0021     0.8557        0.1304                NaN           0.1752
+ dti_gt25    CALF K=1 (paper-as-written attention)      tier-rule  1.0122  0.0416     0.0021     0.5272        0.0916             0.8925           0.1752
+ dti_gt25       Flat MLP (no layers, no attention)      tier-rule  1.0123  0.0416     0.0021     0.9365        0.1473             0.6772           0.1752
+ dti_gt25                       LightGBM T-learner      tier-rule  1.0143  0.0416     0.0021     0.1880        0.0407             0.3558           0.1752
+ dti_gt25 CALF K=4 on graph-derived adjustment set  graph-derived  1.0122  0.0416     0.0021     0.5363        0.1042             0.8825           0.1752
+quintile calibration (primary):
+        n  predicted  observed_dr      se
+0  46666     0.0151       0.0200  0.0038
+1  46665     0.0236       0.0347  0.0043
+2  46665     0.0309       0.0426  0.0047
+3  46665     0.0403       0.0503  0.0051
+4  46665     0.0608       0.0604  0.0052
+
+=== util_gt75: Revolving credit utilization above 75% | treated share 0.214 | layer dims [7, 54, 10] | overlap {'share_outside': 0.2952839826503162, 'e_q01': 0.02, 'e_q99': 0.7810364865736791}
+[util_gt75] done in 5.0 min (total 10.1 min)
+treatment                                    model adjustment_set  dr_mse  ate_dr  ate_dr_se  blp_slope  blp_slope_se  corr_with_primary  overlap_outside
+ dti_gt25 CALF K=4 on graph-derived adjustment set  graph-derived  1.0122  0.0416     0.0021     0.5363        0.1042             0.8825           0.1752
+util_gt75     CALF (K=4 tokens, layered) [primary]      tier-rule  1.0696  0.0129     0.0023     0.1892        0.2437                NaN           0.2953
+util_gt75    CALF K=1 (paper-as-written attention)      tier-rule  1.0696  0.0129     0.0023     0.4406        0.2439             0.6297           0.2953
+util_gt75       Flat MLP (no layers, no attention)      tier-rule  1.0695  0.0129     0.0023     0.4198        0.2261             0.7656           0.2953
+util_gt75                       LightGBM T-learner      tier-rule  1.0719  0.0129     0.0023     0.0369        0.0512             0.2817           0.2953
+util_gt75 CALF K=4 on graph-derived adjustment set  graph-derived  1.4283  0.0173     0.0027     0.3944        0.2306             0.3784           0.2953
+quintile calibration (primary):
+        n  predicted  observed_dr      se
+0  39871    -0.0035       0.0106  0.0060
+1  39871     0.0090       0.0056  0.0053
+2  39871     0.0140       0.0208  0.0048
+3  39871     0.0181       0.0066  0.0045
+4  39871     0.0263       0.0208  0.0052
+
+=== fico_lt680: Credit score below 680 | treated share 0.361 | layer dims [7, 54, 10] | overlap {'share_outside': 0.08261956187452946, 'e_q01': 0.02, 'e_q99': 0.8941187068332065}
+[fico_lt680] done in 5.1 min (total 15.1 min)
+ treatment                                    model adjustment_set  dr_mse  ate_dr  ate_dr_se  blp_slope  blp_slope_se  corr_with_primary  overlap_outside
+ util_gt75 CALF K=4 on graph-derived adjustment set  graph-derived  1.4283  0.0173     0.0027     0.3944        0.2306             0.3784           0.2953
+fico_lt680     CALF (K=4 tokens, layered) [primary]      tier-rule  0.8253  0.0405     0.0018     0.9166        0.1111                NaN           0.0826
+fico_lt680    CALF K=1 (paper-as-written attention)      tier-rule  0.8253  0.0405     0.0018     0.7159        0.0841             0.9073           0.0826
+fico_lt680       Flat MLP (no layers, no attention)      tier-rule  0.8252  0.0405     0.0018     1.0905        0.1176             0.8767           0.0826
+fico_lt680                       LightGBM T-learner      tier-rule  0.8273  0.0405     0.0018     0.1552        0.0397             0.4635           0.0826
+fico_lt680 CALF K=4 on graph-derived adjustment set  graph-derived  0.8255  0.0405     0.0018     0.5648        0.0864             0.8510           0.0826
+quintile calibration (primary):
+        n  predicted  observed_dr      se
+0  51903     0.0203       0.0210  0.0035
+1  51903     0.0362       0.0265  0.0036
+2  51903     0.0450       0.0376  0.0038
+3  51903     0.0544       0.0514  0.0041
+4  51903     0.0717       0.0660  0.0048
+
+=== lti_gt20: Requested amount above 20% of annual income | treated share 0.427 | layer dims [7, 54, 11, 14] | overlap {'share_outside': 0.060978411874706206, 'e_q01': 0.02, 'e_q99': 0.9002117263992534}
+[lti_gt20] done in 5.5 min (total 20.7 min)
+ treatment                                    model adjustment_set  dr_mse  ate_dr  ate_dr_se  blp_slope  blp_slope_se  corr_with_primary  overlap_outside
+fico_lt680 CALF K=4 on graph-derived adjustment set  graph-derived  0.8255  0.0405     0.0018     0.5648        0.0864             0.8510           0.0826
+  lti_gt20     CALF (K=4 tokens, layered) [primary]      tier-rule  0.7704  0.0403     0.0017     1.1799        0.0995                NaN           0.0610
+  lti_gt20    CALF K=1 (paper-as-written attention)      tier-rule  0.7703  0.0403     0.0017     1.4733        0.1079             0.7463           0.0610
+  lti_gt20       Flat MLP (no layers, no attention)      tier-rule  0.7702  0.0403     0.0017     1.2254        0.0904             0.5483           0.0610
+  lti_gt20                       LightGBM T-learner      tier-rule  0.7718  0.0403     0.0017     0.2702        0.0405             0.3832           0.0610
+  lti_gt20 CALF K=4 on graph-derived adjustment set  graph-derived  0.7702  0.0403     0.0017     0.9382        0.0776             0.9155           0.0610
+quintile calibration (primary):
+        n  predicted  observed_dr      se
+0  53128     0.0064       0.0061  0.0031
+1  53128     0.0176       0.0333  0.0035
+2  53127     0.0276       0.0383  0.0039
+3  53127     0.0380       0.0563  0.0041
+4  53127     0.0552       0.0675  0.0043

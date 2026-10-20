@@ -1,0 +1,13 @@
+treatment,test,value,se,passed
+dti_gt36,estimate,0.090053,0.009185,
+dti_gt36,e_value_point,2.601758,,
+dti_gt36,e_value_ci_bound,2.340864,,
+util_gt75,estimate,0.008961,0.004336,
+util_gt75,e_value_point,1.317338,,
+util_gt75,e_value_ci_bound,1.059706,,
+fico_lt680,estimate,0.036417,0.003697,
+fico_lt680,e_value_point,1.832565,,
+fico_lt680,e_value_ci_bound,1.710078,,
+lti_gt20,estimate,0.038488,0.003459,
+lti_gt20,e_value_point,1.874071,,
+lti_gt20,e_value_ci_bound,1.759601,,

@@ -1,0 +1,6 @@
+dti_gt25    policy-states-this-cutoff=False topical-only=True  score=0.86 -> Fannie Mae Selling Guide | B3-6-02 Debt-to-Income Ratios
+util_gt75   policy-states-this-cutoff=False topical-only=True  score=0.63 -> CFPB / eCFR | 12 CFR 1026.43 Minimum standards (ability to repay)
+fico_lt680  policy-states-this-cutoff=False topical-only=True  score=0.82 -> Fannie Mae Selling Guide | B3-5.1-01 General Requirements for Credit Scores
+lti_gt20    policy-states-this-cutoff=False topical-only=True  score=0.73 -> CFPB / eCFR | 12 CFR 1026.43 Minimum standards (ability to repay)
+median balance SMD per clause: {'dti_gt25': 0.339, 'util_gt75': 0.361, 'fico_lt680': 0.344, 'lti_gt20': 0.342}
+thin-overlap share per clause : {'dti_gt25': 0.275, 'util_gt75': 0.315, 'fico_lt680': 0.27, 'lti_gt20': 0.268}

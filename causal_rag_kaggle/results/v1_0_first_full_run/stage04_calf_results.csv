@@ -1,0 +1,21 @@
+treatment,model,adjustment_set,dr_mse,ate,ate_se,blp_slope,blp_slope_se,corr_with_primary,overlap_outside
+dti_gt36,"CALF (K=4 tokens, layered) [primary]",tier-rule,2.48249,0.039,0.00761,-0.15662,0.22095,,0.84878
+dti_gt36,CALF K=1 (paper-as-written attention),tier-rule,2.48439,0.039,0.00761,-0.07808,0.16684,0.86986,0.84878
+dti_gt36,"Flat MLP (no layers, no attention)",tier-rule,2.4792,0.039,0.00761,-0.44953,0.34272,0.43992,0.84878
+dti_gt36,LightGBM T-learner,tier-rule,2.49332,0.039,0.00761,0.00521,0.06694,0.38547,0.84878
+dti_gt36,CALF K=4 on graph-derived adjustment set,graph-derived,2.48776,0.039,0.00761,-0.27172,0.18624,0.89379,0.84878
+util_gt75,"CALF (K=4 tokens, layered) [primary]",tier-rule,1.06955,0.01289,0.00232,0.1892,0.24373,,0.29528
+util_gt75,CALF K=1 (paper-as-written attention),tier-rule,1.0696,0.01289,0.00232,0.4406,0.24386,0.62974,0.29528
+util_gt75,"Flat MLP (no layers, no attention)",tier-rule,1.0695,0.01289,0.00232,0.41979,0.22613,0.76555,0.29528
+util_gt75,LightGBM T-learner,tier-rule,1.0719,0.01289,0.00232,0.03694,0.05121,0.28172,0.29528
+util_gt75,CALF K=4 on graph-derived adjustment set,graph-derived,1.42831,0.01731,0.00268,0.3944,0.23058,0.37844,0.29528
+fico_lt680,"CALF (K=4 tokens, layered) [primary]",tier-rule,0.82532,0.04051,0.00178,0.91661,0.11111,,0.08262
+fico_lt680,CALF K=1 (paper-as-written attention),tier-rule,0.82533,0.04051,0.00178,0.71585,0.0841,0.9073,0.08262
+fico_lt680,"Flat MLP (no layers, no attention)",tier-rule,0.8252,0.04051,0.00178,1.09046,0.11756,0.87675,0.08262
+fico_lt680,LightGBM T-learner,tier-rule,0.82727,0.04051,0.00178,0.15522,0.03969,0.4635,0.08262
+fico_lt680,CALF K=4 on graph-derived adjustment set,graph-derived,0.82553,0.04051,0.00178,0.56481,0.08644,0.85096,0.08262
+lti_gt20,"CALF (K=4 tokens, layered) [primary]",tier-rule,0.77036,0.04031,0.0017,1.17991,0.09949,,0.06098
+lti_gt20,CALF K=1 (paper-as-written attention),tier-rule,0.77027,0.04031,0.0017,1.47334,0.10794,0.74626,0.06098
+lti_gt20,"Flat MLP (no layers, no attention)",tier-rule,0.7702,0.04031,0.0017,1.22536,0.09035,0.54832,0.06098
+lti_gt20,LightGBM T-learner,tier-rule,0.77181,0.04031,0.0017,0.27015,0.04052,0.38319,0.06098
+lti_gt20,CALF K=4 on graph-derived adjustment set,graph-derived,0.77021,0.04031,0.0017,0.93817,0.07759,0.91549,0.06098

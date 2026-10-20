@@ -1,0 +1,6 @@
+system,causal_conditions_only,causal_graded,causal_rag_smooth,no_rag
+clause,Unnamed: 1_level_1,Unnamed: 2_level_1,Unnamed: 3_level_1,Unnamed: 4_level_1
+dti_gt25,14.4159,3.5042,35.4427,1.6561
+fico_lt680,2.038,0.9044,6882.8584,0.8307
+lti_gt20,24.7821,4.1729,960.3191,2.3488
+util_gt75,2.7772,6.4876,56.1649,1.1103

@@ -1,0 +1,3 @@
+system,n,mean_cross,mean_placebo,abs_cross,abs_placebo,cliff_index_abs,ci_lo,ci_hi
+bands_only,595,0.0111,0.1309,0.1019,0.1389,0.7337,0.628,0.8407
+causal_graded_bands,595,0.1359,0.0538,0.1363,0.0588,2.32,1.8879,2.8969

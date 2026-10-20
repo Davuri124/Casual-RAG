@@ -1,0 +1,12 @@
+audit system: causal_rag_smooth
+APPROVE           426
+DECLINE            95
+REFER_TO_HUMAN     79
+Name: count, dtype: int64
+thin_overlap               162
+spurious_sensitive          39
+evidence_model_conflict      8
+evidence_ignored             5
+llm_calf_disagree            4
+Name: count, dtype: int64
+While the applicant's credit score is below the recommended threshold (Condition 3), the estimated increase in default probability is relatively low at +4.8 percentage points. The other conditions are not triggered, and the requested loan amount is well within acceptable limits. Therefore, approving the loan is justified.

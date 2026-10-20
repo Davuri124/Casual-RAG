@@ -1,0 +1,8 @@
+a,b,auroc_a,auroc_b,diff,lo,hi,p
+bands_only,no_rag,0.6466,0.6334,0.0133,-0.0077,0.0365,0.222
+causal_graded_bands,no_rag,0.6554,0.6334,0.022,-0.0264,0.0751,0.36
+causal_graded_bands,causal_graded,0.6554,0.6603,-0.0049,-0.0194,0.0096,0.458
+causal_graded_bands,causal_conditions_only,0.6554,0.668,-0.0126,-0.0608,0.038,0.66
+causal_graded_bands,bands_only,0.6554,0.6466,0.0087,-0.0367,0.0599,0.684
+causal_graded_bands,causal_rag,0.6554,0.6777,-0.0224,-0.0703,0.0277,0.416
+bands_only,causal_conditions_only,0.6466,0.668,-0.0213,-0.0555,0.0111,0.212

@@ -1,0 +1,13 @@
+dti_gt25    policy-states-this-cutoff=False topical-only=True  score=0.86 -> Fannie Mae Selling Guide | B3-6-02 Debt-to-Income Ratios
+util_gt75   policy-states-this-cutoff=False topical-only=True  score=0.68 -> Fannie Mae Selling Guide | B3-6-02 Debt-to-Income Ratios
+fico_lt680  policy-states-this-cutoff=False topical-only=True  score=0.82 -> Fannie Mae Selling Guide | B3-5.1-01 General Requirements for Credit Scores
+lti_gt20    policy-states-this-cutoff=False topical-only=True  score=0.73 -> CFPB / eCFR | 12 CFR 1026.43 Minimum standards (ability to repay)
+Applicant: annual income $72,000; employed 3 years; home ownership MORTGAGE; state MS; income verification: Not Verified.
+Credit profile: FICO 677; debt-to-income 21.6%; revolving utilization 61%; revolving balance $13,543; delinquencies (2y) 0; inquiries (6m) 0; open accounts 11; total accounts 25; public records 0; mortgage accounts 5; credit history 13.8 years.
+Request: $3,500 for debt consolidation (loan-to-income 4.9%).
+dti_gt25 {'n_t': 25, 'n_c': 25, 'y_t': 7, 'y_c': 3, 'diff': 0.16, 'lo': -0.062, 'hi': 0.382, 'thin': False, 'smd': 0.177}
+util_gt75 {'n_t': 25, 'n_c': 25, 'y_t': 3, 'y_c': 1, 'diff': 0.08, 'lo': -0.082, 'hi': 0.242, 'thin': True, 'smd': 0.71}
+fico_lt680 {'n_t': 25, 'n_c': 25, 'y_t': 0, 'y_c': 0, 'diff': 0.0, 'lo': -0.076, 'hi': 0.076, 'thin': False, 'smd': 0.291}
+lti_gt20 {'n_t': 25, 'n_c': 25, 'y_t': 4, 'y_c': 2, 'diff': 0.08, 'lo': -0.108, 'hi': 0.268, 'thin': False, 'smd': 0.335}
+median balance SMD per clause: {'dti_gt25': 0.346, 'util_gt75': 0.367, 'fico_lt680': 0.351, 'lti_gt20': 0.341}
+thin-overlap share per clause : {'dti_gt25': 0.26, 'util_gt75': 0.347, 'fico_lt680': 0.273, 'lti_gt20': 0.26}

@@ -1,0 +1,4 @@
+system,n_regime_pairs,response_rate,sign_agree_all,sign_agree_responders,spearman_dP_vs_tau,mean_abs_dP_regime,mean_abs_dP_boundary,spurious_mean_abs_dP,spurious_decision_flip_rate,evidence_response_rate,evidence_reliance_correct_sign
+causal_rag,1045,0.4699,0.8,0.9919,0.0126,0.4113,0.411,0.0067,0.0333,0.0755,0.9524
+no_rag,1045,0.1809,0.7684,0.7937,-0.3816,0.0965,,0.0219,0.0367,,
+vanilla_rag,1045,0.1426,0.7541,0.7383,-0.2107,0.0421,,0.0152,0.0367,,

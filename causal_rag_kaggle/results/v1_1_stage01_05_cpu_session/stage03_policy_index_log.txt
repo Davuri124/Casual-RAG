@@ -1,0 +1,15 @@
+policy docs fetched/cached: ['fannie_b3_6_02', 'fannie_b3_5_1_01', 'cfpb_reg_z_1026_43', 'cfpb_reg_b_1002_6']
+missing: []
+88 policy chunks from 4 documents
+entities
+NaN                 37
+income              26
+repayment           18
+dti                 17
+credit_score        13
+utilization          4
+prohibited_basis     4
+case index: (306212, 384) | example card:
+ Applicant: annual income $35,000; employed unknown years; home ownership MORTGAGE; state TX; income verification: Source Verified.
+Credit profile: FICO 677; debt-to-income 12.9%; revolving utilization 93%; revolving balance $15,006; delinquencies (2y) 0; inquiries (6m) 0; open accounts 14; total accounts 27; public records 0; mortgage accounts unknown; credit history 10.4 years.
+Request: $12,000 for other (loan-to-income 34.3%).

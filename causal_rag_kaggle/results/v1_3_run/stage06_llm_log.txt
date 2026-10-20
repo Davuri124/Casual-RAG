@@ -1,0 +1,7 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+chunk 0: 100 applicants in 49.1 min
+chunk 1: 100 applicants in 48.9 min
+chunk 2: 100 applicants in 48.3 min
+chunk 3: 100 applicants in 48.5 min
+chunk 4: 100 applicants in 48.4 min
+chunk 5: 100 applicants in 49.3 min

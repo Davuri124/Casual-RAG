@@ -1,0 +1,5 @@
+system,n,mean_cross,mean_placebo,abs_cross,abs_placebo,cliff_index_abs,ci_lo,ci_hi
+causal_conditions_only,595,0.2893,0.0528,0.2965,0.0561,5.2854,4.0021,6.998
+causal_graded,595,0.1367,0.0421,0.1372,0.0496,2.7631,2.2135,3.4644
+causal_rag_smooth,595,0.3266,0.0036,0.3266,0.0038,86.0365,53.3028,172.9363
+no_rag,595,0.0046,0.0371,0.0434,0.0401,1.0847,0.807,1.493

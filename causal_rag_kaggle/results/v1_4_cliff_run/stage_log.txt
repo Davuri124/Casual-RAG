@@ -1,0 +1,8 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+chunk 0: 25 applicants in 20.0 min
+chunk 1: 25 applicants in 20.7 min
+chunk 2: 25 applicants in 20.4 min
+chunk 3: 25 applicants in 20.1 min
+chunk 4: 25 applicants in 19.9 min
+chunk 5: 25 applicants in 20.4 min
+cliff_index ~1: smooth | >>1: reacts to the cutoff/label. 95% intervals are bootstrap over applicants.

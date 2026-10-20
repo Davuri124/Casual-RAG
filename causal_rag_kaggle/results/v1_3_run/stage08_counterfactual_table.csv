@@ -1,0 +1,5 @@
+system,trivial_prior_agree,n_regime_pairs,response_rate,sign_agree_all,sign_agree_responders,spearman_dP_vs_tau,mean_abs_dP_regime,spearman_within_clause,mean_abs_dP_boundary,cliff_ratio_boundary_over_regime,spurious_mean_abs_dP,spurious_decision_flip_rate,evidence_response_rate,evidence_reliance_correct_sign,mean_abs_dP_regime_from_v1_2
+causal_conditions_only,0.6799,2090.0,0.5062,0.8923,0.9575,-0.1394,0.3357,0.0883,0.358,1.0665,0.0338,0.0333,,,
+causal_graded,0.6799,2090.0,0.6435,0.9813,0.9859,0.0179,0.2941,0.0087,0.2163,0.7353,0.0277,0.03,0.3677,0.9638,
+no_rag,,,,,,,,,0.0755,0.728062,,,,,0.1037
+vanilla_rag,,,,,,,,,0.0331,0.85974,,,,,0.0385

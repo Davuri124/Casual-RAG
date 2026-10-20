@@ -1,0 +1,8 @@
+stage,minutes_this_run
+01 data prep,0.8
+02 causal graph,0.2
+03 policy corpus + embeddings,367.1
+04 CALF + baselines,146.2
+04b RCT validation,9.6
+04b refutations,5.7
+05 retriever,1.1

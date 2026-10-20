@@ -1,0 +1,5 @@
+clause,bands_only,causal_graded_bands
+dti_gt25,1.3142,2.7686
+fico_lt680,0.8793,0.8005
+lti_gt20,1.2109,4.1167
+util_gt75,0.4855,3.9521

@@ -1,0 +1,5 @@
+dataset,model,ate_model,ate_experiment,ate_exp_ci,ate_in_ci,dr_mse,blp_slope,blp_se,qini
+Hillstrom,CALF K=4 tokens (layered),0.06789,0.05884,"[0.0449, 0.0728]",True,0.48361,1.0136,0.33354,33.48785
+Hillstrom,CALF K=1 (paper-as-written),0.06466,0.05884,"[0.0449, 0.0728]",True,0.4836,1.11205,0.37162,32.92514
+Hillstrom,CALF flat (1 layer),0.06753,0.05884,"[0.0449, 0.0728]",True,0.48363,1.13587,0.36296,33.31817
+Hillstrom,LightGBM T-learner,0.05916,0.05884,"[0.0449, 0.0728]",True,0.48691,0.12337,0.12616,9.32298

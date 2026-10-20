@@ -1,0 +1,96 @@
+PC (causal-learn, fisherz)
+{
+ "dti_gt25": {
+  "var": "dti",
+  "parents": [
+   "annual_inc_log",
+   "is_verified",
+   "open_acc",
+   "revol_util"
+  ],
+  "directed_descendants": [
+   "lti"
+  ],
+  "ambiguous_neighbours": [],
+  "default_drop": [
+   "dti"
+  ],
+  "graph_drop": [
+   "dti",
+   "lti"
+  ]
+ },
+ "util_gt75": {
+  "var": "revol_util",
+  "parents": [
+   "revol_bal_log"
+  ],
+  "directed_descendants": [
+   "dti",
+   "fico",
+   "inq_last_6mths",
+   "loan_amnt_log",
+   "lti",
+   "open_acc",
+   "pub_rec",
+   "revol_bal_log"
+  ],
+  "ambiguous_neighbours": [],
+  "default_drop": [
+   "revol_util"
+  ],
+  "graph_drop": [
+   "dti",
+   "fico",
+   "inq_last_6mths",
+   "loan_amnt_log",
+   "lti",
+   "open_acc",
+   "pub_rec",
+   "revol_bal_log",
+   "revol_util"
+  ]
+ },
+ "fico_lt680": {
+  "var": "fico",
+  "parents": [
+   "annual_inc_log",
+   "credit_age_yrs",
+   "delinq_2yrs",
+   "inq_last_6mths",
+   "is_rent",
+   "pub_rec",
+   "revol_bal_log",
+   "revol_util"
+  ],
+  "directed_descendants": [],
+  "ambiguous_neighbours": [],
+  "default_drop": [
+   "fico"
+  ],
+  "graph_drop": [
+   "fico"
+  ]
+ },
+ "lti_gt20": {
+  "var": "lti",
+  "parents": [
+   "annual_inc_log",
+   "dti",
+   "inq_last_6mths",
+   "is_verified",
+   "loan_amnt_log",
+   "revol_bal_log"
+  ],
+  "directed_descendants": [],
+  "ambiguous_neighbours": [],
+  "default_drop": [
+   "loan_amnt_log",
+   "lti"
+  ],
+  "graph_drop": [
+   "loan_amnt_log",
+   "lti"
+  ]
+ }
+}

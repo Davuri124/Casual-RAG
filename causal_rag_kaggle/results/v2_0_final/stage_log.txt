@@ -1,0 +1,24 @@
+dti [('<10%', 10.3), ('10-15%', 11.3), ('15-20%', 13.1), ('20-25%', 14.9), ('25-30%', 17.0), ('30-35%', 18.0), ('35%+', 22.7)]
+revol_util [('<25%', 10.0), ('25-50%', 12.3), ('50-75%', 13.8), ('75-90%', 14.7), ('90%+', 16.0)]
+fico [('<680', 17.2), ('680-699', 14.1), ('700-719', 10.7), ('720-739', 8.3), ('740+', 5.6)]
+lti [('<10%', 10.6), ('10-15%', 11.5), ('15-20%', 12.3), ('20-25%', 13.1), ('25%+', 16.6)]
+
+chunk 0: 100 applicants in 4.1 min
+chunk 1: 100 applicants in 4.1 min
+chunk 2: 100 applicants in 4.1 min
+chunk 3: 100 applicants in 4.1 min
+chunk 4: 100 applicants in 4.1 min
+chunk 5: 100 applicants in 4.2 min
+chunk 0: 25 applicants in 19.3 min
+chunk 1: 25 applicants in 20.0 min
+chunk 2: 25 applicants in 19.7 min
+chunk 3: 25 applicants in 19.5 min
+chunk 4: 25 applicants in 19.1 min
+chunk 5: 25 applicants in 19.9 min
+done: (600, 4) (1190, 9)
+
+applicants compared: 600 | defaults: 85
+bands_only: cliff index 0.73 [0.63, 0.84] -> smooth (like the plain LLM)
+causal_graded_bands: cliff index 2.32 [1.89, 2.90] -> mild cliff
+bands_only: AUROC 0.647, diff vs no_rag +0.013 [-0.008, +0.036] -> not distinguishable from the plain LLM
+causal_graded_bands: AUROC 0.655, diff vs no_rag +0.022 [-0.026, +0.075] -> not distinguishable from the plain LLM

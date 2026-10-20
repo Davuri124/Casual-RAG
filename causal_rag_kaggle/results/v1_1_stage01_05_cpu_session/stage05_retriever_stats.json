@@ -1,0 +1,44 @@
+{
+ "median_balance_smd": {
+  "dti_gt25": 0.329,
+  "util_gt75": 0.406,
+  "fico_lt680": 0.349,
+  "lti_gt20": 0.353
+ },
+ "thin_overlap_share": {
+  "dti_gt25": 0.247,
+  "util_gt75": 0.337,
+  "fico_lt680": 0.27,
+  "lti_gt20": 0.267
+ },
+ "policy_support": [
+  {
+   "clause": "dti_gt25",
+   "states_cutoff": "False",
+   "topical_only": "True",
+   "score": "0.86",
+   "source": "Fannie Mae Selling Guide | B3-6-02 Debt-to-Income Ratios"
+  },
+  {
+   "clause": "util_gt75",
+   "states_cutoff": "False",
+   "topical_only": "True",
+   "score": "0.68",
+   "source": "Fannie Mae Selling Guide | B3-6-02 Debt-to-Income Ratios"
+  },
+  {
+   "clause": "fico_lt680",
+   "states_cutoff": "False",
+   "topical_only": "True",
+   "score": "0.82",
+   "source": "Fannie Mae Selling Guide | B3-5.1-01 General Requirements for Credit Scores"
+  },
+  {
+   "clause": "lti_gt20",
+   "states_cutoff": "False",
+   "topical_only": "True",
+   "score": "0.73",
+   "source": "CFPB / eCFR | 12 CFR 1026.43 Minimum standards (ability to repay)"
+  }
+ ]
+}

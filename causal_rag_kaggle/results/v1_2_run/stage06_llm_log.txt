@@ -1,0 +1,6 @@
+chunk 0: 100 applicants in 59.4 min
+chunk 1: 100 applicants in 59.1 min
+chunk 2: 100 applicants in 58.1 min
+chunk 3: 100 applicants in 57.4 min
+chunk 4: 100 applicants in 58.1 min
+chunk 5: 100 applicants in 58.4 min

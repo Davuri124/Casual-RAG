@@ -1,0 +1,10 @@
+{
+ "n": 300,
+ "approve_rate": 0.6366666666666667,
+ "decline_rate": 0.09,
+ "refer_rate": 0.2733333333333333,
+ "default_rate_overall": 0.14,
+ "default_rate_if_refers_approved": 0.1391941391941392,
+ "default_rate_among_approved": 0.09424083769633508,
+ "default_rate_among_referred": 0.24390243902439024
+}
